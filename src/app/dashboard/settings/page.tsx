@@ -20,7 +20,7 @@ const Settings = () => {
             <ul className='space-y-4'>
               <li>
                 <Link href="/dashboard/settings/accounts"
-                  className='flex items-center text-lg text-gray-800 hover:text-indio-600 transition-colors py-2 px-4 rounded-md hover:bg-indigo-50'>
+                  className='flex items-center justify-center text-lg text-gray-800 hover:text-indio-600 transition-colors py-2 px-4 rounded-md hover:bg-indigo-50'>
                   <span>
                     Account
                   </span>
@@ -28,7 +28,7 @@ const Settings = () => {
               </li>
               <li>
                 <Link href="/dashboard/settings/notifications"
-                  className='flex items-center text-lg text-gray-800 hover:text-yellow-600 transition-colors py-2 px-4 rounded-md hover:bg-yellow-50'>
+                  className='flex items-center justify-center text-lg text-gray-800 hover:text-yellow-600 transition-colors py-2 px-4 rounded-md hover:bg-yellow-50'>
                   <span>
                     Notifications
                   </span>
@@ -36,7 +36,7 @@ const Settings = () => {
               </li>
               <li>
                 <Link href="/dashboard/settings/profile"
-                  className='flex items-center text-lg text-gray-800 hover:text-green-600 transition-colors py-2 px-4 rounded-md hover:bg-green-50'>
+                  className='flex justify-center items-center text-lg text-gray-800 hover:text-green-600 transition-colors py-2 px-4 rounded-md hover:bg-green-50'>
                   <span>
                     Profile
                   </span>
@@ -46,7 +46,7 @@ const Settings = () => {
           </div>
 
           <div className="flex-1 bg-white shadow-md rounded-lg p-8">
-            <h2 className="text-3xl-font-semibold text-gray-900 mb-6">
+            <h2 className="text-3xl font-semibold text-gray-900 mb-6">
               Select a Settings
             </h2>
 
