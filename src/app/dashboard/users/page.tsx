@@ -23,7 +23,7 @@ const Users = () => {
           {/* Users list cards */}
           <Link href="/dashboard/users/user-list" className='bg-orange-50 rounded-lg shadow-sm hover:shadow-md transition-shadow p-4'>
             <h2 className="text-xl font-semibold text-orange-800 mb-2">User Lists</h2>
-            <p className="text-gray-600"> View detailed information about each user in your system.</p>
+            <p className="text-gray-600"> Browse and manage all users in the system.</p>
           </Link>
         </div>
 
