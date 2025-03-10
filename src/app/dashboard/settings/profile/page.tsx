@@ -24,7 +24,7 @@ const Profile = () => {
             </div>
           </div>
           <div>
-            <button className="px-6 mt-5 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
+            <button className="cursor-pointer px-6 mt-5 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
               Change Picture
             </button>
           </div>
@@ -73,13 +73,13 @@ const Profile = () => {
 
         <div className="flex justify-end space-x-4">
           <button
-            className="px-6 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200
+            className="cursor-pointer px-6 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200
            transition-colors"
           >
             Cancel
           </button>
           <button
-            className="px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700
+            className="cursor-pointer px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700
            transition-colors"
           >
             Save Changes
